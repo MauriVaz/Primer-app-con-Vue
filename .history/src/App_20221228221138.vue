@@ -6,7 +6,7 @@
 
     <div id="main-container">
       <h2>Lista de Todos</h2>
-      <!-- <p>Existen {{this.todoslist.length }} </p> -->
+      <p>Existen {{this.todoslist.length }} </p>
       <TodoAdd v-on:add-todo="addTodo"/>
       <Todos v-bind:todoslist="copyTodos" v-on:delete-todo="deleteTodo" />
     </div>
@@ -94,7 +94,6 @@ export default {
     border: solid 1px #ccc;
     width: 600px;
     margin: 100px auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   #header{

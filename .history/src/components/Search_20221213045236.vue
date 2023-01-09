@@ -1,0 +1,14 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+<template>
+    
+</template>
+
+<script>
+export default {
+    name:"Search"
+}
+</script>
+
+<style scoped>
+
+</style>
