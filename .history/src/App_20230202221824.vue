@@ -5,7 +5,7 @@
     </div>
 
     <div id="main-container">
-      <h2>List of Todos</h2>
+      <h2>Lista de Todos</h2>
       <!-- <p>Existen {{this.todoslist.length }} </p> -->
       <TodoAdd v-on:add-todo="addTodo"/>
       <Todos v-bind:todoslist="copyTodos" v-on:delete-todo="deleteTodo" />
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+//import HelloWorld from './components/HelloWorld.vue'
 import Search from './components/Search';
 import Todos from './components/Todos';
 import TodoAdd from './components/TodoAdd';

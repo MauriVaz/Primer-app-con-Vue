@@ -1,7 +1,14 @@
 <template>
     <div id="add-container">
         <form @submit="addTodo">
-            <input type="text" placeholder="Add Todo" v-model="title">
+            <input type="text" placeholder="Añadir todo" v-model="title">
+            <label for="cars">Choose a type of todo:</label>
+            <select id="cars">
+            <option label="short">Short efforce</option>
+            <option label="middle">Middle efforce</option>
+            <option label="high">High efforce</option>
+            <option label="total">Total efforce</option>
+</select>
         </form>
     </div>
 </template>

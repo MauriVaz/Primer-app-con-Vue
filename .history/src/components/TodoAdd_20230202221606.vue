@@ -1,7 +1,14 @@
 <template>
     <div id="add-container">
         <form @submit="addTodo">
-            <input type="text" placeholder="Add Todo" v-model="title">
+            <input type="text" placeholder="Añadir todo" v-model="title">
+            <label for="cars">Choose a type of todo:</label>
+            <select id="cars">
+            <option label="short efforce">Volvo (Latin for "I roll")</option>
+            <option label="middle efforce">Saab (Swedish Aeroplane AB)</option>
+            <option label="high efforce">Mercedes (Mercedes-Benz)</option>
+            <option label="total efforce">Audi (Auto Union Deutschland Ingolstadt)</option>
+</select>
         </form>
     </div>
 </template>

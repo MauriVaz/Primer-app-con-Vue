@@ -1,7 +1,7 @@
 <template>
     <div id="add-container">
         <form @submit="addTodo">
-            <input type="text" placeholder="Add Todo" v-model="title">
+            <input type="text" placeholder="Añadir todo" v-model="title">
         </form>
     </div>
 </template>

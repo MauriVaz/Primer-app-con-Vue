@@ -2,7 +2,7 @@
     <div class="todo" v-bind:class="{completed: todo.completed}">
         <div class="todo-body" >
             <input type="checkbox" 
-                v-bind:checked="todo.completed ? 'checked': 'notchecked'"
+                v-bind:checked="todo.completed ? 'checked': ''"
                 v-on:change="checkTodo">
             {{todo.title}}
         </div>
@@ -60,7 +60,7 @@
     button{
         border: none;
         border-radius: 3px;
-        padding: 10px;
+        padding: 50px;
         background-color: #ccc;
         color: black;
     }
